@@ -37,20 +37,20 @@ h2 {
   margin-top: 0;
   font-weight: normal;
 }
-- h3,
+h3,
 a {
   color: #313555;
 }
 
 .kei {
   position: absolute;
-  top: 300px;
-  left: 150px;
+  top: 18.75rem;
+  left: 9.375rem;
 }
 .on {
   position: absolute;
-  bottom: 300px;
-  right: 150px;
+  bottom: 18.75rem;
+  right: 9.375rem;
 }
 
 hr {
@@ -62,16 +62,17 @@ hr {
 }
 .profile {
   position: relative;
-  height: 250px;
+  width: 45%;
+  margin: 1.5rem auto 0 auto;
+  text-align: center;
+  line-height: 200%;
+  height: fit-content;
 }
-/*.profile h2,
-p {
-}*/
+
 .mio-pp {
-  width: 150px;
-  position: absolute;
-  left: 35rem;
+  width: 10rem;
   float: left;
+  margin: 1rem 2rem 1rem 1rem;
 }
 .skill-row {
   width: 45%;
@@ -144,4 +145,67 @@ p {
 
 .profile a:hover {
   color: #b9b3d4;
+}
+@media screen and (max-width: 1040px) {
+  body {
+    width: 100%;
+  }
+  .kei,
+  .on {
+    display: none;
+  }
+  .profiletext {
+    clear: both;
+    margin: 10px auto;
+  }
+  .mio-pp {
+    width: 100%;
+    margin: 1rem auto 3rem auto;
+    align-self: center;
+  }
+  .skill-row .miobass {
+    width: 100%;
+    margin: 0 auto 15px auto;
+  }
+  .skill-row .mio-scared {
+    width: 100%;
+    margin: 0 auto 15px auto;
+  }
+  .basstext,
+  .scaredtext {
+    clear: both;
+  }
+  .mio {
+    width: 100%;
+
+    margin-top: 9rem;
+  }
+  .bottom-container {
+    font-size: 75%;
+    margin: 25px auto 0 auto;
+  }
+  .footlink a {
+    margin: 25px auto;
+  }
+  .skill-row {
+    width: 75%;
+    margin: 10px auto;
+    text-align: center;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .top h2 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  .contact-me {
+    width: 75%;
+    margin: 10px auto 10px auto;
+  }
+  .profile {
+    width: 75%;
+  }
 }
