@@ -136,3 +136,12 @@ p {
   right: 30%;
   bottom: 5px;
 }
+
+.profile a {
+  text-decoration: none;
+  color: #424874;
+}
+
+.profile a:hover {
+  color: #b9b3d4;
+}
