@@ -107,7 +107,8 @@ hr {
   font-family: "Montserrat", sans-serif;
 }
 .btn:hover {
-  color: #2c3152;
+  background-color: #50567e;
+  color: #dcd6f7;
 }
 
 .bottom-container {
@@ -117,7 +118,8 @@ hr {
 }
 .bottom-container a {
   color: #f4eeff;
-  font-family: "Merriweather", serif;
+
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   margin-right: 30px;
 }
